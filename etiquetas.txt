@@ -1,0 +1,6 @@
+<code> define un texto en codigo de computadora.
+<kbd> define un texto de teclado.
+<samp> define un texto ejemplo de codigo de computadora. 
+<var> define una variable.
+<pre> define un texto preformateado.
+

@@ -1,0 +1,154 @@
+<html>
+<body>
+<ol>
+<li>Naranjas</li>
+<li>Manzanas</li>
+<li>Bananas</li>
+</ol>
+<hr>
+
+
+<ul>
+<li>Tomates</li>
+<li>Pepinos</li>
+<li>Cebollas</li>
+</ul>
+<hr>
+
+<dl>                                          <!-- listas de definicion -->
+<dt>Chocolate</dt>
+<dd> elaborado a base de cacao</dd>
+<dt>caramelo</dt>
+<dd>elaborado a base de azucar</dd>
+</dl>
+
+<hr>
+<hr>
+
+						<!--  <a atributo="valor"> Texto del enlace</a>    sintaxis para crear enlaces-->
+
+<a href="/http://www.virtualnauta.com/"> La home de virtualnauta</a>
+								<!-- se utiliza para abrir el archivo pero en otra pagina -->
+<hr>
+
+<a href="http://www.virtualnauta.com/"target="_blank">La home de virtualnauta</a>
+
+								<!-- atributo name sirve para definir una ubicacion dentro de la pagina -->
+<hr>
+
+<!-- Texto antes del vinculo -->
+<a name="destino-uno">Capitulo 1<a/> <!-- Definimos un destino en el capitulo -->
+<br>
+<!-- en otra parte de la pagina del mismo sitio o de otro creamos un enlace -->
+<a href="http://www.misitio.com/uno.html#destino-uno">Ir a Capitulo 1</a>
+<br>
+<!-- o si el enlace esta en el mismo documento -->
+<a href="/#destino-uno">Ir a Capitulo 1</a>
+<br> 
+<hr>
+
+<!-- abrir un mail. para enviar un mail -->
+<a href="mailto:angelsistemaz@gmail.com">Mandar email</a>
+<hr>
+<hr>
+
+<!-- para hacer una busqueda con una imagen -->
+<!-- sintaxis  <a href="http://www.google.com/"><img src="/../gaficos/google.gif"></a> -->
+
+<a href="http://www.google.com/"><img src="D:\escritorio\7mo semestre\web/images.jpg"></a>
+<br>
+<hr>
+<br>
+<br>
+<!-- Formularios son utilizados para que el ususario ingrese datos se utiliza la etiqueta <form>
+action indica el documento,  method -->
+<form action="URL"method="valor">
+
+</form>
+<input type="control"atributo="valor">
+</form>
+<br>
+<hr>
+<!-- control "text" crea un control que nos permite ingresar un texto en una linea -->
+<!-- EJEMPLO -->
+<form action="datos.php"method="get">
+Nombre:<input type="text"name="monbre">
+Apellido:<input type="text"name="apellido">
+<hr>
+<!-- control "radio" seleccionar una sola opcion entre una serie de posibilidades -->
+<form action="edades.asp"method="post">
+¿Edad?
+<br>
+<input type="radio" name="edad" value="menor">menor de 17
+<br>
+<input type="radio" name="edad" value="adulto">entre 18 y 60
+<br>
+<input type="radio" name="edad" value="mayor"> mayor de 61
+<br>
+</form>
+<hr>
+
+<!-- checkbox  permite elegir varias opciones entre todas las posibilidades -->
+<input type="checkbox" name="pasa" value="tv">TV
+<br>
+<input type="checkbox" name="pasa" value="libros">Libros
+<br>
+<input type="checkbox" name="pasa" value="Musica">Musica
+<br>
+<br>
+<hr>
+</form>
+</form>
+
+<!-- password presenta una serie de puntitos, utilizado para contraseñas -->
+<form action="verificacion.php" method="post">
+<br>
+Nombre:<input type="text"name="nombre">
+Password:<input type="password" name="pass">
+</form>
+<hr>
+
+<!-- submit  y reset submit para enviar datos-- reset borrar -->
+
+<form action="datos_personales.php" method="post">
+Nombre:<input type="text"name="nombre">
+<br>
+Contraseña:<input type="password" name="secreto">
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="borrar">
+</form>
+<br>
+<hr>
+
+<!--ingresar archivos por medio de un formulario -->
+<form action="archivo.php" method="post">
+Ingrese al foto:<input type="file"name="foto">
+</form> 
+<br>
+<hr>
+
+<!-- hidden  permite enviar informacion oculta a los ojos del usuario -->
+
+<form action="oculto.php"method="post">
+Nombre:<input type="text" name="nombre">
+<br>
+Contraseña:<input type="password" name="contra">
+<br>
+<input type="hidden"value="cookie">
+</form>
+<hr>
+
+<!-- permite utilizar una imagen como un boton de un formulario -->
+<form action="archivo.php" method="post">
+Nombre:<input type="text" name="nombre">
+<br>
+Contraseña:<input type="password" name="contra">
+<input type="image" src="D:\escritorio\7mo semestre\web/images1.jpg">
+</form>
+<br>
+<hr>
+
+
+</body>
+</html>
